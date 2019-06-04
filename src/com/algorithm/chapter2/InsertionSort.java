@@ -9,6 +9,17 @@ import java.util.Scanner;
  */
 public class InsertionSort {
 
+    //算法复杂度分析 *
+    //时间复杂度（平均）   O(n^2) 外循环n次，内循环m次 m*n 
+    //时间复杂度（最坏）   O(n^2) 外循环n次，内循环m次 m*n 
+    //时间复杂度（最好）   O(n) ，数组已经排好序的情况，即当所有a[i] > a[i-1] 时不需要再执行内循环 
+    //空间复杂度          O(1) 
+    //稳定性             稳定 
+    //平均比较和移动次数约为 (n^2)/4 
+    //直接插入排序时简单排序中性能最好的
+    //
+
+
     public static void main(String[] args) {
 //        Scanner scanner = new Scanner(System.in);
         int[] nums = {9, 7, 8, 5, 6, 4, 2, 3, 1, 0};
