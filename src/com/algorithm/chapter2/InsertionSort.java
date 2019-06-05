@@ -39,7 +39,8 @@ public class InsertionSort {
             key = nums[i];
             //j表示从已排好序的数组的最右边开始比较
             j = i - 1;
-            while (j >= 0 && key <= nums[j]) {
+            //while (j >= 0 && key <= nums[j]) {
+            while (j >= 0 && key >= nums[j]) {
                 //若插入的元素小，则将被比较的元素后移一位
                 nums[j + 1] = nums[j];
                 j--;
@@ -49,4 +50,6 @@ public class InsertionSort {
         }
         return nums;
     }
+
+
 }
