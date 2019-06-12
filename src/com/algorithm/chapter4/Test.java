@@ -1,4 +1,4 @@
-package com.algorithm.chpater4;
+package com.algorithm.chapter4;
 
 /**
  * @author luo xinglin
